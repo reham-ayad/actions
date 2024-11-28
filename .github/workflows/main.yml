@@ -12,14 +12,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+      
 
 
     steps:
-      - name: 'testing github action'
-        run: pwd
+        - name: 'testing github action'
+          run: pwd
 
-        - name: 'testing printing '
-          run: echo reham
+          - name: 'testing printing '
+            run: echo reham
 
 
 
